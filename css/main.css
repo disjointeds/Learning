@@ -1,5 +1,25 @@
 body {
-
-background-color: #ff00ff;
-
+background-color: #bdf1ff;
+transition: all .5s linear;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-content: center;
+    background-color: #fff;
+    align-items: center;
+    padding: 0 25px;
+}
+.menu li{
+    margin-left:15px;
+    list-style: none;
+}
+.changeBG{
+    background: #000;
+    color: #ffffff;
+    border: solid #fff 3px;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
 }
